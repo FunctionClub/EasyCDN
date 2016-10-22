@@ -1,3 +1,4 @@
+
 #CDN 服务器自动安装脚本
 ##说明
 采用Oneinstack包安装配置Nginx，此脚本方便做反向代理，CDN静态缓存资源（开发中）。
@@ -21,5 +22,6 @@ Set up ssl to this proxy domain? ('y' or 'n'):
 Please input the location of the KEY
 Please input the location of the CRT
 <strong>这里分别输入你的绑定的反向代理域名SSL私钥和证书文件绝对路径</strong>
+
 Redirect all HTTP to HTTPS ? ('y' or 'n')
 <strong>选择y或者n来选择是否启用强制跳转所有http至https协议</strong>
